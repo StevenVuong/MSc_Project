@@ -3,9 +3,9 @@ import os
  
 def upload_files(path):
     session = boto3.Session(
-        aws_access_key_id='AKIAIGJB7ALYI365ZB4A',
-        aws_secret_access_key='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',
-        region_name='EU (London)'
+        aws_access_key_id='',
+        aws_secret_access_key='',
+        region_name='LOC'
     )
     s3 = session.resource('s3')
     bucket = s3.Bucket('ppmi')
